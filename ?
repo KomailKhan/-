@@ -237,7 +237,7 @@ def super():
 def pilih_super():
 	peak = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if peak =="":
-		print "\033[1;96m[!] \x1b[1;91mBosdke! Sahi de Dal"
+		print "\033[1;96m[!] \x1b[1;91mBosdke! Sahi se Dal"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
